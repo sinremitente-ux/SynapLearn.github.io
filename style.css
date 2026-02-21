@@ -1,0 +1,85 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Frutiger Roman', sans-serif;
+  background-color: #ffffff; /* blanco puro */
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-family: 'Baloo 2', cursive; /* título juguetón */
+  font-size: 4em;
+  color: #6a0dad; /* morado fuerte */
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f7e36e; /* amarillo suave */
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #f7e36e;
+  color: #1a1a1a;
+}
+
+/* SECCIONES */
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.left-align {
+  text-align: left;
+}
+
+/* Títulos y subtítulos */
+h2 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 2.5em;
+  color: #6a0dad; /* morado fuerte */
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #2980b9; /* azul */
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
